@@ -33,7 +33,7 @@ app.post("/", function (req, res) {
   const url = "https://us9.api.mailchimp.com/3.0/lists/c14dfbcb12";
   const options = {
     method: "POST",
-    auth: "adityasingh:0cb9dccdc0e50e4c543da7f16294b82b-us9",
+    auth: "adityasingh:5f5d38a253862404bc7c522f7a04ca47-us9",
   };
 
   const request = https.request(url, options, function (response) {
@@ -60,3 +60,5 @@ app.listen(process.env.PORT || 3000, function () {
 });
 // 0cb9dccdc0e50e4c543da7f16294b82b-us9
 // c14dfbcb12
+//second api key generated on 25012024 when trying to deploy the app on render
+// api key generated was 5f5d38a253862404bc7c522f7a04ca47-us9
